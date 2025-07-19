@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>JDRAW STORE</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: url('kamehouse.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .titulo {
+      color: #00aaff;
+      font-size: 4.5em;
+      margin-top: 30px;
+      text-shadow: 2px 2px 10px black;
+    }
+
+    .contenedor {
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      border-radius: 15px;
+      gap: 50px;
+      margin-top: 40px;
+    }
+
+    .bloque {
+      text-align: center;
+      color: white;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: blue;
+      text-shadow: 1px 1px 5px black;
+    }
+
+    audio, video {
+      width: 300px;
+      max-width: 100%;
+      border: 2px solid blue;
+      box-shadow: 0 0 10px blue;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="titulo">JDRAW STORE</div>
+
+  <div class="contenedor">
+    <div class="bloque">
+      <h2>PINCHE PATA</h2>
+      <audio controls>
+        <source src="PINCHE PATA.mp3" type="audio/mpeg">
+        Tu navegador no puede reproducir este audio.
+      </audio>
+    </div>
+    <div class="bloque">
+      <h2>J MATIU PHONK</h2>
+      <video controls>
+        <source src="J MATIU PHONK.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+      </video>
+    </div>
+  </div>
+</body>
+</html>
